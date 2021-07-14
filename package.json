@@ -5,7 +5,7 @@
   "main": "dist/app.js",
   "type": "module",
   "scripts": {
-    "test": "jest --runInBand",
+    "test": "jest --runInBand --coverage",
     "build": "(rm -r dist || echo '') && tsc",
     "start": "npm run build && node dist/app.js"
   },
